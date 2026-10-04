@@ -1,0 +1,25 @@
+.env
+*.duckdb
+*.duckdb.wal
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+dist/
+.vite/
+
+# Not part of the public repo: the React edition and the test suite
+react_app/
+snowflake_app/tests/
+
+# Local secrets and run history (Streamlit app)
+snowflake_app/.local_settings.json
+snowflake_app/.runs/
+snowflake_app/.ops/
+
+# Deployment secrets and keys (Streamlit Community Cloud gets these in its Secrets box)
+.streamlit/secrets.toml
+snowflake_app/.streamlit/secrets.toml
+*.p8
+*.pem
+*.log

@@ -1,0 +1,28 @@
+defect_id,inspection_id,order_id,defect_type,severity,description,containment_status
+DEF-000001,QI-000587,ORD-0148,Dimensional,Minor,"Dimensional defect detected on Length: measured 25.1023, spec [24.95, 25.05]",Open
+DEF-000002,QI-000696,ORD-0178,Dimensional,Minor,"Dimensional defect detected on Concentricity: measured 25.1116, spec [24.95, 25.05]",Open
+DEF-000003,QI-000697,ORD-0178,Surface Porosity,Major,"Surface Porosity defect detected on Concentricity: measured 25.1048, spec [24.95, 25.05]",Open
+DEF-000004,QI-000698,ORD-0178,Surface Porosity,Major,"Surface Porosity defect detected on Length: measured 25.0957, spec [24.95, 25.05]",Open
+DEF-000005,QI-000709,ORD-0181,Cosmetic,Minor,"Cosmetic defect detected on Length: measured 25.1191, spec [24.95, 25.05]",Open
+DEF-000006,QI-000744,ORD-0189,Bond Failure,Minor,"Bond Failure defect detected on Length: measured 25.1153, spec [24.95, 25.05]",Open
+DEF-000007,QI-000764,ORD-0195,Structural Crack,Minor,"Structural Crack defect detected on Surface Finish: measured 25.0854, spec [24.95, 25.05]",Open
+DEF-000008,QI-000780,ORD-0200,Bond Failure,Major,"Bond Failure defect detected on Surface Finish: measured 25.0867, spec [24.95, 25.05]",Open
+DEF-000009,QI-000782,ORD-0200,Bond Failure,Major,"Bond Failure defect detected on Outer Diameter: measured 25.0843, spec [24.95, 25.05]",Open
+DEF-000010,QI-001008,ORD-0261,Surface Porosity,Major,"Surface Porosity defect detected on Surface Finish: measured 25.1067, spec [24.95, 25.05]",Open
+DEF-000011,QI-001116,ORD-0288,Dimensional,Major,"Dimensional defect detected on Roundness: measured 25.068, spec [24.95, 25.05]",Open
+DEF-000012,QI-001192,ORD-0311,Structural Crack,Major,"Structural Crack defect detected on Roundness: measured 25.0606, spec [24.95, 25.05]",Open
+DEF-000013,QI-001273,ORD-0333,Dimensional,Major,"Dimensional defect detected on Length: measured 25.0586, spec [24.95, 25.05]",Open
+DEF-000014,QI-001313,ORD-0344,Bond Failure,Critical,"Bond Failure defect detected on Surface Finish: measured 25.0524, spec [24.95, 25.05]",Open
+DEF-000015,QI-001334,ORD-0348,Structural Crack,Major,"Structural Crack defect detected on Roundness: measured 25.0579, spec [24.95, 25.05]",Open
+DEF-000016,QI-001338,ORD-0349,Structural Crack,Major,"Structural Crack defect detected on Outer Diameter: measured 25.0518, spec [24.95, 25.05]",Open
+DEF-000017,QI-001341,ORD-0349,Surface Porosity,Major,"Surface Porosity defect detected on Outer Diameter: measured 25.0542, spec [24.95, 25.05]",Open
+DEF-000018,QI-001425,ORD-0370,Dimensional,Major,"Dimensional defect detected on Concentricity: measured 25.0695, spec [24.95, 25.05]",Open
+DEF-000019,QI-001505,ORD-0390,Structural Crack,Critical,"Structural Crack defect detected on Length: measured 25.1144, spec [24.95, 25.05]",Open
+DEF-000020,QI-001506,ORD-0390,Bond Failure,Critical,"Bond Failure defect detected on Length: measured 25.0795, spec [24.95, 25.05]",Open
+DEF-000021,QI-001515,ORD-0392,Surface Finish,Critical,"Surface Finish defect detected on Concentricity: measured 25.0511, spec [24.95, 25.05]",Open
+DEF-000022,QI-001516,ORD-0392,Structural Crack,Major,"Structural Crack defect detected on Surface Finish: measured 25.0563, spec [24.95, 25.05]",Open
+DEF-000023,QI-001519,ORD-0393,Bond Failure,Major,"Bond Failure defect detected on Outer Diameter: measured 25.0521, spec [24.95, 25.05]",Open
+DEF-000024,QI-001651,ORD-0426,Surface Porosity,Minor,"Surface Porosity defect detected on Concentricity: measured 25.0503, spec [24.95, 25.05]",Open
+DEF-000025,QI-001783,ORD-0457,Surface Finish,Major,"Surface Finish defect detected on Length: measured 25.0798, spec [24.95, 25.05]",Open
+DEF-000026,QI-001871,ORD-0480,Surface Finish,Major,"Surface Finish defect detected on Concentricity: measured 25.0546, spec [24.95, 25.05]",Open
+DEF-000027,QI-001872,ORD-0480,Surface Finish,Major,"Surface Finish defect detected on Length: measured 25.0689, spec [24.95, 25.05]",Open

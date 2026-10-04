@@ -1,0 +1,6 @@
+customer_id,name,industry,plant_location,quality_requirements
+CUST-001,AutoDrive Corp,Automotive,"Detroit, MI","IATF 16949, PPAP Level 3"
+CUST-002,AeroJet Systems,Aerospace,"Seattle, WA","AS9100D, FAI Required"
+CUST-003,MedDevice Global,Medical,"Boston, MA","ISO 13485, FDA 21 CFR 820"
+CUST-004,HeavyMach Industries,Industrial,"Houston, TX",ISO 9001
+CUST-005,ElectroSys Inc,Electronics,"San Jose, CA",IPC-A-610 Class 3

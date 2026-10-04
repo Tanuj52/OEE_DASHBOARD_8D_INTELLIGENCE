@@ -1,0 +1,16 @@
+part_id,vendor_name,lead_time_days,min_order_qty,unit_cost_usd,vendor_email
+PART-0001,NorthStar Bearings,5,4,81.6,orders@northstar-bearings.example
+PART-0002,NorthStar Bearings,5,4,115.2,orders@northstar-bearings.example
+PART-0003,Apex Tooling Supply,10,1,240.0,sales@apextooling.example
+PART-0004,SealTech Industrial,3,10,14.4,orders@sealtech.example
+PART-0005,SealTech Industrial,3,10,43.2,orders@sealtech.example
+PART-0006,Moldline Components,21,1,1728.0,service@moldline.example
+PART-0007,FactoryPro Consumables,28,1,3360.0,orders@factorypro.example
+PART-0008,DriveCore Motion,18,1,2112.0,parts@drivecore.example
+PART-0009,FactoryPro Consumables,4,5,33.6,orders@factorypro.example
+PART-0010,FactoryPro Consumables,4,10,21.12,orders@factorypro.example
+PART-0011,SealTech Industrial,3,10,26.88,orders@sealtech.example
+PART-0012,PowerTrans Belting,2,6,17.28,orders@powertrans.example
+PART-0013,FactoryPro Consumables,4,5,144.0,orders@factorypro.example
+PART-0014,FactoryPro Consumables,4,5,268.8,orders@factorypro.example
+PART-0015,Thermon Sensors,7,2,62.4,sales@thermon-sensors.example

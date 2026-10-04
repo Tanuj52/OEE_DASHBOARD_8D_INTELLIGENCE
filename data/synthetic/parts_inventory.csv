@@ -1,0 +1,16 @@
+part_id,part_name,category,machine_compatibility,qty_on_hand,reorder_point,unit_cost_usd
+PART-0001,Spindle Bearing 6205,Bearing,"MCH-001,MCH-002,MCH-003,MCH-004,MCH-005,MCH-015",8,5,85.0
+PART-0002,Spindle Bearing 6207,Bearing,MCH-005,2,3,120.0
+PART-0003,Chuck Jaw Set,Tooling,"MCH-003,MCH-004,MCH-005",4,2,250.0
+PART-0004,Coolant Pump Seal,Seal,"MCH-001,MCH-002,MCH-015",12,5,15.0
+PART-0005,Hydraulic Seal Kit,Seal,"MCH-011,MCH-012",6,3,45.0
+PART-0006,Injection Screw,Wear Part,"MCH-006,MCH-007",1,1,1800.0
+PART-0007,Laser Tube,Consumable,MCH-008,1,1,3500.0
+PART-0008,Servo Motor Unit,Motor,"MCH-009,MCH-010,MCH-018",2,1,2200.0
+PART-0009,Welding Wire Spool,Consumable,MCH-013,20,10,35.0
+PART-0010,Paint Filter Set,Filter,MCH-014,15,8,22.0
+PART-0011,Coolant Seal Ring,Seal,MCH-007,0,3,28.0
+PART-0012,V-Belt Set,Belt,"MCH-001,MCH-002,MCH-011,MCH-012",6,4,18.0
+PART-0013,Probe Tip Ruby 2mm,Consumable,MCH-017,5,3,150.0
+PART-0014,Grinding Wheel 200mm,Consumable,MCH-015,3,2,280.0
+PART-0015,Thermocouple K-Type,Sensor,MCH-016,4,2,65.0

@@ -1,0 +1,21 @@
+machine_id,name,type,line,station,install_date,critical_components,status
+MCH-001,CNC Mill Alpha,CNC,Line-A,Station-1,2019-03-15,"spindle,bearings,coolant_pump",Active
+MCH-002,CNC Mill Beta,CNC,Line-A,Station-2,2019-06-20,"spindle,bearings,coolant_pump",Active
+MCH-003,CNC Lathe Gamma,CNC,Line-A,Station-3,2020-01-10,"chuck,bearings,turret",Active
+MCH-004,CNC Lathe Delta,CNC,Line-B,Station-1,2020-04-05,"chuck,bearings,turret",Active
+MCH-005,CNC Lathe Epsilon,CNC,Line-B,Station-2,2019-11-22,"chuck,bearings,turret",Active
+MCH-006,Injection Molder 1,Injection,Line-C,Station-1,2018-07-01,"barrel,screw,heater_bands",Active
+MCH-007,Injection Molder 2,Injection,Line-C,Station-2,2021-02-14,"barrel,screw,heater_bands",Active
+MCH-008,Laser Cutter X1,Laser,Line-C,Station-3,2022-05-30,"laser_tube,lens,mirrors",Active
+MCH-009,Assembly Robot R1,Assembly,Line-D,Station-1,2020-09-18,"servo_motors,grippers,vision",Active
+MCH-010,Assembly Robot R2,Assembly,Line-D,Station-2,2020-09-18,"servo_motors,grippers,vision",Active
+MCH-011,Press Brake P1,Press,Line-E,Station-1,2017-12-01,"hydraulic_ram,dies,backgauge",Active
+MCH-012,Press Brake P2,Press,Line-E,Station-2,2018-03-10,"hydraulic_ram,dies,backgauge",Active
+MCH-013,Welding Station W1,Welding,Line-E,Station-3,2021-08-25,"torch,wire_feed,gas_system",Active
+MCH-014,Paint Booth PB1,Finishing,Line-F,Station-1,2019-05-12,"spray_guns,filters,exhaust",Active
+MCH-015,CNC Grinder G1,CNC,Line-B,Station-3,2022-01-15,"wheel,spindle,coolant_system",Active
+MCH-016,Heat Treat Oven H1,Thermal,Line-F,Station-2,2018-11-20,"heating_elements,thermocouple",Active
+MCH-017,CMM Inspector 1,Inspection,Line-G,Station-1,2021-06-01,"probe,granite_table,software",Active
+MCH-018,Assembly Robot R3,Assembly,Line-D,Station-3,2023-01-10,"servo_motors,grippers,vision",Active
+MCH-019,Deburring Cell D1,Finishing,Line-F,Station-3,2022-08-05,"brushes,spindle,coolant",Active
+MCH-020,Leak Tester LT1,Testing,Line-G,Station-2,2020-12-15,"pressure_transducer,seals",Active

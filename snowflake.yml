@@ -1,0 +1,58 @@
+# Streamlit in Snowflake (container runtime) deployment for the Streamlit edition.
+#
+# Any account, two commands (no code changes: the app finds its objects from the
+# database it is deployed in):
+#   1. python sql/setup.py --connection <name> [--database DB] [--warehouse WH] [--app-role ROLE]
+#        tables + data, report email, OPERATIONS schema, semantic view and Plant Assistant agent
+#   2. python sql/deploy_app.py --connection <name> [--database DB] [--warehouse WH] [--compute-pool POOL]
+#        uploads the app and creates the Streamlit object (same as the entity below)
+#   or, with Snowflake CLI 3.14+:  snow streamlit deploy --replace --connection <name>
+#        then: ALTER STREAMLIT <db>.PRODUCTION.EIGHT_D_INTELLIGENCE
+#                SET ARTIFACT_REPOSITORIES = (snowflake.snowpark.pypi_shared_repository);
+#        (GRANT DATABASE ROLE SNOWFLAKE.PYPI_REPOSITORY_USER TO ROLE <deploy role> first)
+# Optional, email to any address (not on trial accounts): sql/08_external_email.sql,
+#   then deploy_app.py --mail-eai EIGHT_D_MAIL_EAI, or uncomment the keys below.
+#
+# Override the defaults below with --env, e.g. --env SNOWFLAKE_COMPUTE_POOL=MY_POOL.
+# Only the app code, theme and fonts are uploaded: never .local_settings.json,
+# .runs/, .ops/ or caches. Plant data is read from Snowflake tables only.
+definition_version: 2
+env:
+  SNOWFLAKE_DATABASE: MANUFACTURING_8D
+  SNOWFLAKE_SCHEMA: PRODUCTION
+  SNOWFLAKE_WAREHOUSE: COMPUTE_WH
+  SNOWFLAKE_COMPUTE_POOL: SYSTEM_COMPUTE_POOL_CPU
+entities:
+  eight_d_intelligence:
+    type: streamlit
+    identifier:
+      name: EIGHT_D_INTELLIGENCE
+      database: <% ctx.env.SNOWFLAKE_DATABASE %>
+      schema: <% ctx.env.SNOWFLAKE_SCHEMA %>
+    title: 8D Intelligence
+    query_warehouse: <% ctx.env.SNOWFLAKE_WAREHOUSE %>
+    compute_pool: <% ctx.env.SNOWFLAKE_COMPUTE_POOL %>
+    runtime_name: SYSTEM$ST_CONTAINER_RUNTIME_PY3_11
+    main_file: snowflake_app/streamlit_app.py
+    # external_access_integrations:
+    #   - EIGHT_D_MAIL_EAI
+    # secrets:
+    #   mail_smtp: MANUFACTURING_8D.PRODUCTION.EIGHT_D_SMTP_SECRET
+    #   mail_sendgrid_key: MANUFACTURING_8D.PRODUCTION.EIGHT_D_SENDGRID_SECRET
+    artifacts:
+      - snowflake_app/__init__.py
+      - snowflake_app/streamlit_app.py
+      - snowflake_app/requirements.txt
+      - snowflake_app/.streamlit/config.toml
+      - src: snowflake_app/app_pages/*.py
+        dest: snowflake_app/app_pages/
+      - src: snowflake_app/core/*.py
+        dest: snowflake_app/core/
+      - src: snowflake_app/services/*.py
+        dest: snowflake_app/services/
+      - src: snowflake_app/tools/*.py
+        dest: snowflake_app/tools/
+      - src: snowflake_app/ui/*.py
+        dest: snowflake_app/ui/
+      - src: snowflake_app/static/*.ttf
+        dest: snowflake_app/static/

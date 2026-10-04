@@ -1,0 +1,9 @@
+supplier_id,name,material_type,certification_level,rating,lead_time_days
+SUP-001,SteelCorp Industries,Steel Alloy 4140,"ISO 9001, IATF 16949",4.5,14
+SUP-002,PolyPlast Solutions,ABS Resin,ISO 9001,4.1,10
+SUP-003,PrecisionMet Ltd,Aluminum 6061-T6,"ISO 9001, AS9100",4.7,12
+SUP-004,RawMat Global,Steel Alloy 4140,ISO 9001,3.2,21
+SUP-005,BrassTech Components,Brass C360,ISO 9001,4.4,7
+SUP-006,CoatingsPro Inc,Powder Coat,ISO 9001,4.0,5
+SUP-007,AdhesiveBond Corp,Structural Adhesive,"ISO 9001, IATF 16949",4.6,8
+SUP-008,WireForm Solutions,Welding Wire ER70S,"ISO 9001, AWS",4.3,10

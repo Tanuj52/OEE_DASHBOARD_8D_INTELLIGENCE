@@ -1,0 +1,95 @@
+# Signal Orange · light. One accent hue on warm-neutral surfaces, matching the React app's light theme.
+# Status colours are mapped into the orange/graphite family so native alerts and badges stay on-palette.
+
+[server]
+enableStaticServing = true
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#F26B1D"
+backgroundColor = "#F8F7F5"
+secondaryBackgroundColor = "#F1EFEC"
+textColor = "#1B1816"
+borderColor = "#E5E2DE"
+showWidgetBorder = true
+showSidebarBorder = true
+linkColor = "#B54111"
+linkUnderline = false
+codeTextColor = "#1B1816"
+codeBackgroundColor = "#ECEAE7"
+dataframeBorderColor = "#E5E2DE"
+dataframeHeaderBackgroundColor = "#F5F4F2"
+
+redColor = "#C2410C"
+redBackgroundColor = "#FDECE3"
+redTextColor = "#9A3412"
+orangeColor = "#F26B1D"
+orangeBackgroundColor = "#FFF1E8"
+orangeTextColor = "#B54111"
+yellowColor = "#FB8137"
+yellowBackgroundColor = "#FFF4EC"
+yellowTextColor = "#B54111"
+greenColor = "#57524D"
+greenBackgroundColor = "#F1EFEC"
+greenTextColor = "#3F3A36"
+blueColor = "#78716B"
+blueBackgroundColor = "#F1EFEC"
+blueTextColor = "#3F3A36"
+violetColor = "#8F3515"
+grayColor = "#78716B"
+grayBackgroundColor = "#F1EFEC"
+grayTextColor = "#57524D"
+
+chartCategoricalColors = ["#F26B1D", "#57524D", "#FFA266", "#B54111", "#A8A29E", "#FFC8A1", "#1B1816"]
+chartSequentialColors = ["#FFF4EC", "#FFE5D1", "#FFC8A1", "#FFA266", "#FB8137", "#F26B1D", "#DB5512", "#B54111", "#8F3515", "#742E15"]
+
+font = "Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif"
+codeFont = "'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace"
+baseFontSize = 14
+baseFontWeight = 400
+codeFontSize = "12.5px"
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+headingFontSizes = ["24px", "18px", "15px", "14px", "13px", "12px"]
+baseRadius = "8px"
+buttonRadius = "8px"
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/Inter-Regular.ttf"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/Inter-Medium.ttf"
+weight = 500
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/Inter-SemiBold.ttf"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/Inter-Bold.ttf"
+weight = 700
+
+[[theme.fontFaces]]
+family = "JetBrains Mono"
+url = "app/static/JetBrainsMono-Regular.ttf"
+weight = 400
+
+[[theme.fontFaces]]
+family = "JetBrains Mono"
+url = "app/static/JetBrainsMono-Medium.ttf"
+weight = 500
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F4F2"
+borderColor = "#E5E2DE"
